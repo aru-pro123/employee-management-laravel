@@ -15,9 +15,10 @@
                             {{ method_field('DELETE') }}
                             {{ csrf_field() }}
                             <button type="submit" class="btn btn-danger">Delete</button>
+                            <a href="{{ route('employee.index') }}"><button class="btn btn-outline-secondary btn-close">Cancel</button></a>
                         </form>
 
-                        <br><a href="{{ route('employee.index') }}"><button class="btn btn-default btn-close">Cancel</button></a>
+
 
                     </div>
                 </div>

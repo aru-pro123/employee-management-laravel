@@ -29,6 +29,7 @@ class EmployeeController extends Controller
     {
 
         $ds_divisions = DsDivision::all();
+      //  dump($ds_divisions);
         return view('employees.create', compact('ds_divisions'));
     }
 
@@ -38,7 +39,7 @@ class EmployeeController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(EmployeeDataRequest $request)
+    public function store(Request $request)
     {
         $employee = new Employee();
         $employee->setAttribute('first_name', $request->input('first_name'));
@@ -71,8 +72,9 @@ class EmployeeController extends Controller
      */
     public function edit($id)
     {
+        $ds_divisions = DsDivision::all();
         $employee=Employee::find($id);
-        return view('employees.edit')->with('employee', $employee);
+        return view('employees.edit', compact('ds_divisions'))->with('employee', $employee);
     }
 
     /**
@@ -88,7 +90,7 @@ class EmployeeController extends Controller
         $employee->setAttribute('last_name',$request->input('last_name'));
         $employee->setAttribute('date_of_birth',$request->input('date_of_birth'));
         $employee->setAttribute('summery',$request->input('summery'));
-        //  $employee->setAttribute('ds_division_id',$request->input('ds_division_id'));
+        $employee->setAttribute('ds_division_id',$request->input('ds_division_id'));
         $employee->save();
 
         return redirect()->route('employee.index')->with('success','Data updated successfully');;

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdcaa483-df50-4bb2-9886-40686030cb8d" name="Default Changelist" comment="" />
+    <list default="true" id="fdcaa483-df50-4bb2-9886-40686030cb8d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EmployeeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EmployeeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/EmployeeDataRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/EmployeeDataRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/employees/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/employees/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/employees/delete.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/employees/delete.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/employees/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/employees/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/employees/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/employees/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,6 +128,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1dO5oc7fNoCTBRz6zrbsMdP2tMZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -127,7 +137,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../student_management_system-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager">
@@ -159,7 +169,10 @@
       <option name="presentableId" value="Default" />
       <updated>1592283474972</updated>
       <workItem from="1592283480364" duration="11672000" />
-      <workItem from="1592295412471" duration="299000" />
+      <workItem from="1592295412471" duration="1280000" />
+      <workItem from="1592315485557" duration="32000" />
+      <workItem from="1592327092647" duration="7801000" />
+      <workItem from="1592380091061" duration="4277000" />
     </task>
     <servers />
   </component>
@@ -175,9 +188,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="120" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.728@0.0.1366.728" timestamp="1592293471120" />
-    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1592291984712">
+    <state x="463" y="120" key="FileChooserDialogImpl" timestamp="1592395344443">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592291984712" />
+    <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1592395344443" />
   </component>
 </project>

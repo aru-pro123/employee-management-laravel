@@ -27,7 +27,7 @@ class EmployeeDataRequest extends FormRequest
             'first_name' => 'required',
             'last_name' => 'required',
             'date_of_birth' => 'required|date_format:Y-M-D|before:today',
-            'ds_division' => 'required|not_in:-- Choose your DS Division --',
+//            'ds_division' => 'required|not_in:-- Choose your DS Division --',
 
         ];
     }
